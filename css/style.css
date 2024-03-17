@@ -1,0 +1,433 @@
+/* -------common css START--------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* -------common css END--------- */
+
+
+/* -------------------------------------------------------- */
+
+/* -------NavBar css START--------- */
+#navbar{
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+}
+.nav-wrapper{
+    display: flex;
+    padding-top: 28px; 
+
+}
+.logo{
+    width: 20%;
+    height: 100%;
+}
+.nav-items{
+   
+    width: 80%;
+    display: flex ;
+    justify-content: flex-end;
+}
+.nav-items ul{
+    display: flex;
+}
+.nav-items ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 60px;
+    margin-right: 30px;
+    transition: all linear 0.5s;
+}
+.nav-items ul li:last-child a{
+    margin-right: 0px;
+}
+.nav-items ul li a:hover{
+    color: black;
+}
+
+/* -------NavBar css END--------- */
+
+
+/* -------------------------------------------------------- */
+
+/* -------Banner css START--------- */
+
+#banner{
+    background: url(../images/banner.jpeg);
+    padding: 462px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-details p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffc178;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    padding-bottom: 38px;
+}
+.banner-details h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.banner-details h1 span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 88px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 100px;
+    display: block;
+}
+
+/* ---------Banner css END--------- */
+
+
+
+/* -------------------------------------------------------- */
+
+/* ---------Holiday css START--------- */
+#holiday{
+    padding-top: 286px;
+    padding-bottom: 295px;
+    background: rgb(0, 0, 0);
+}
+.holiday-wrapper{
+    display: flex;
+}
+.holiday-text{
+    margin-left: 143px;
+    margin-top: 50px;
+}
+.holiday-text h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: #FBD784;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.holiday-text h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    line-height: 87px;
+}
+.holiday-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 32px;
+    width: 587px;
+    text-transform: uppercase;
+}
+.holiday-text a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FBD784;
+    margin-top: 75px;
+}
+
+/* ---------Holiday css END--------- */
+
+/* ------------------------------------------------------------------------  */
+
+
+/* ---------Bromo css START--------- */
+
+#bromo{
+    /*  */
+    background: rgb(0, 0, 0);
+}
+
+.img{
+    background: url(../images/new.jpg);
+    display: block;
+    padding-top: 295px;
+    padding-bottom: 295.08px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.alltext{
+    padding-top: 560px;
+}
+
+.alltext p1{
+    text-align: center;
+    font-size: 18;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #FBD784;
+    letter-spacing: 6px;
+    display: block;
+}
+.p2{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 80px;
+    padding-left: 194px;
+    padding-right: 194px;
+}
+.enjoy{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 32px;
+    padding-left: 213px;
+    padding-right: 214px;
+    padding-top: 14px;
+}
+.alltext a{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #FBD784;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 607px;
+    padding-top: 26px;
+}
+
+/* ---------Bromo css END--------- */
+
+/* -------------------------------------------------------- */
+
+
+/* ---------Culture css START--------- */
+
+#culture{
+    padding-top: 295px;
+    padding-bottom: 200px;
+    background: rgb(0, 0, 0);
+}
+.culture-wrapper{
+    display: flex;
+}
+.culture-text{
+    margin-right: 43px;
+    margin-top: 160px;
+}
+.culture-text h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: #FBD784;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.culture-text h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    line-height: 87px;
+    margin-top: 19px;
+}
+.culture-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 32px;
+    width: 587px;
+    text-transform: uppercase;
+    margin-top: 19px;
+}
+.culture-text a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FBD784;
+    margin-top: 47px;
+}
+
+
+/* ---------Culture css END--------- */
+
+/* --------------------------------------------------------------------- */
+
+/* ---------Footer css START--------- */
+#footer{
+    height: 580px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+}
+
+.footer-nav{
+    display: flex;
+    
+}
+.footer-nav a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-left: 680px;
+    padding-right: 20px;
+    padding-top: 15px;
+    letter-spacing: -0.3px;
+
+
+}
+.btn{
+    width: 250px;
+    height: 59px;
+    background-color: #FFA343;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.btn p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.footer-content{
+    padding-top: 73px;
+    display: flex;
+}
+
+.terms{
+    width: 50%;  
+}
+
+.title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: -0.3px;
+    padding-top: 10px;
+    color: #FFFFFF;
+    width: 405px;
+    line-height: 50px;
+}
+.condition{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    padding-top: 36px;
+    color: #FFFFFF;
+}
+.terms img{
+    padding-top: 43px;
+}
+
+.service{
+    width: 50%;
+    display: flex;
+}
+.services{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.23px;
+    color: #ffd1a0;
+}
+.services p{
+    padding-bottom: 20px;
+}
+.services ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #fff;
+    letter-spacing: -0.2px;
+    line-height: 30px;
+}
+
+.about{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.23px;
+    color: #ffd1a0;
+    padding-left: 110px;
+}
+.about p{
+    padding-bottom: 20px;
+}
+.about ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #fff;
+    letter-spacing: -0.2px;
+    line-height: 30px;
+}
+
+.help{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.23px;
+    color: #ffd1a0;
+    padding-left: 110px;
+}
+.help p{
+    padding-bottom: 20px;
+}
+.help ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #fff;
+    letter-spacing: -0.2px;
+    line-height: 30px;
+}
+
+.copyright{
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    padding-top: 153px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+/* ---------Footer css END--------- */
